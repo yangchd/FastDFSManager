@@ -1,4 +1,4 @@
-package com.yangchd.util.pool;
+package com.yangchd.util;
 
 import org.csource.fastdfs.ClientGlobal;
 import org.csource.fastdfs.TrackerClient;
@@ -146,7 +146,7 @@ public class ConnectionPool {
                 throw new Exception("获取文件服务器连接超时");
             }
         }
-        FastDFSLogger.info("[获取空闲连接(checkout)][" + logId + "][获取空闲连接成功]");
+        FastDFSLogger.info("[获取空闲连接(checkout)][" + logId + "][获取空闲连接成功,当前连接："+nowPoolSize+"]");
         return trackerServer;
     }
 

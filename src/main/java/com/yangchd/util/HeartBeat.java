@@ -1,4 +1,4 @@
-package com.yangchd.util.pool;
+package com.yangchd.util;
 
 import org.csource.fastdfs.TrackerServer;
 

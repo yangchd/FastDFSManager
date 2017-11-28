@@ -1,7 +1,8 @@
 package com.yangchd.util;
 
 /**
- * Created by yangchd on 2017/8/23.
+ * @author yangchd
+ * @date 2017/8/23
  * 文件Bean，存放上传时文件可能用到的参数
  */
 public class FastDFSFile implements FileManagerConfig {

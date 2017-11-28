@@ -17,8 +17,4 @@ public interface FileManagerConfig extends Serializable {
 
     String TRACKER_NGNIX_ADDR = "10.168.71.148";
 
-    String TRACKER_NGNIX_PORT = "22122";
-
-    String CLIENT_CONFIG_FILE = "fdfs_client.conf";
-
 }

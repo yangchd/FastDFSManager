@@ -1,7 +1,5 @@
 package com.yangchd.util;
 
-import com.yangchd.util.pool.ConnectionPool;
-import com.yangchd.util.pool.FastDFSLogger;
 import org.csource.common.NameValuePair;
 import org.csource.fastdfs.StorageClient1;
 import org.csource.fastdfs.StorageServer;
